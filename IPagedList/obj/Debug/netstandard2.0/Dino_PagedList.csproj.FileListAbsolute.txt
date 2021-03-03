@@ -1,0 +1,8 @@
+D:\C#\Dino_PagedList\Dino_PagedList\IPagedList\obj\Debug\netstandard2.0\Dino_PagedList.AssemblyInfoInputs.cache
+D:\C#\Dino_PagedList\Dino_PagedList\IPagedList\obj\Debug\netstandard2.0\Dino_PagedList.AssemblyInfo.cs
+D:\C#\Dino_PagedList\Dino_PagedList\IPagedList\obj\Debug\netstandard2.0\Dino_PagedList.csproj.CoreCompileInputs.cache
+D:\C#\Dino_PagedList\Dino_PagedList\IPagedList\bin\Debug\netstandard2.0\Dino_PagedList.deps.json
+D:\C#\Dino_PagedList\Dino_PagedList\IPagedList\bin\Debug\netstandard2.0\Dino_PagedList.dll
+D:\C#\Dino_PagedList\Dino_PagedList\IPagedList\bin\Debug\netstandard2.0\Dino_PagedList.pdb
+D:\C#\Dino_PagedList\Dino_PagedList\IPagedList\obj\Debug\netstandard2.0\Dino_PagedList.dll
+D:\C#\Dino_PagedList\Dino_PagedList\IPagedList\obj\Debug\netstandard2.0\Dino_PagedList.pdb

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZvKGcpFFXFKgFbW5T/YMaTSCJbHqV/TXckjHRpdS8xR6Ws8HrFXcychAeQ7Tnbgcj+/6BkcrWkROcgck32oVWg==",
+  "success": true,
+  "projectFilePath": "D:\\C#\\Dino_PagedList\\Dino_PagedList\\IPagedList\\Dino_PagedList.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
