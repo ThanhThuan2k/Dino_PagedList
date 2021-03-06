@@ -12,22 +12,20 @@ namespace Test_PagedList_Dino
         {
             PagedListDataContext db = new PagedListDataContext();
             Stopwatch stop = new Stopwatch();
-
-            // Bắt đầu chạy đồng hồ tính giờ
-            stop.Start();
-            IPagedList<int> collection = db.Helper
-                .Where(x => x.Id <= 100)
-                .Select(x => x.Value)
-                .ToPagedList(5, 20);
-            stop.Stop();
-            // Kết thúc bấm h
-
-            var count = collection.Count();
-            for(int i = 0; i < collection.Count(); i++)
+            int pageNumber = 10000;
+            int pageSize = 100;
+            for (var i = 1; i <= 5; i++)
             {
-                Console.WriteLine(collection[i]);
+                // Bắt đầu chạy đồng hồ tính giờ
+                stop.Start();
+                var list = db.TestTable
+                    .ToPagedList(pageNumber, pageSize);
+                stop.Stop();
+                // Kết thúc bấm h
+
+                Console.WriteLine(stop.Elapsed.TotalMilliseconds);
             }
-            Console.WriteLine(stop.Elapsed);
+
             Console.ReadKey();
         }
     }
